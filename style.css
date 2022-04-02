@@ -22,3 +22,12 @@ html{ border: none;}
     background-size: cover;
     min-height: 10rem;
 }
+
+/* --------------------------- universal styles and utility classes ------------------------ */
+
+/*-------- Padding Utility Classes --------*/
+
+.padded {padding: 5%;}
+.padded-sm {background-color: #}
+
+.bg-dark {background-color: #}
