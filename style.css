@@ -115,6 +115,8 @@ footer a:hover{
 
 /* -------------- Header & Footer Styles ----------------- */
 
+
+
 header {
     background-image: url('/images/the-sleep-co-4.jpg');
     background-size: cover;
@@ -152,6 +154,11 @@ footer a {
     background-position: 50% 57%;
 }
 
+
+.bg-image-banner {
+background-image: url('/images/the-sleep-co-4.jpg');
+    background-size: cover;
+    background-position: center;}
 /* Icon Grid */
 
 .fa-solid {
