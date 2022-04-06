@@ -33,6 +33,7 @@ body {
 .padded-sm { padding: 2.5%; }
 .padded-md { padding: 5%;   }
 .padded-lg { padding: 10%;  }
+#padded-lg {padding: 15%;}
 
 .padded-05 { padding: 0.5rem; }
 .padded-1 { padding: 1rem; }
@@ -55,6 +56,7 @@ body {
 .padded-b-2 { padding-bottom: 2rem; }
 .padded-l-2 { padding-left: 2rem; }
 .padded-r-2 { padding-right: 2rem; }
+#padded-r-2 {padding-right: 1.3rem;}
 
 .padded-t-0 { padding-top: 0; }
 .padded-b-0 { padding-bottom: 0; }
@@ -230,7 +232,7 @@ footer a {
     border: none;
 }
 
-[class*="col-"] { padding: 0;}
+/* [class*="col-"] { padding: 0%;} */
 
 .bg-yellow { background-color: #ffbe00}
 
