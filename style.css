@@ -223,6 +223,12 @@ header h3 {
     
 }
 
+header a:hover {
+    color: #ffffff;
+    transition: 0.3s;
+
+}
+
 header section {
     padding: 1.5%;
 
