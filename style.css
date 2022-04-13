@@ -17,9 +17,20 @@
 /* Image Styles */
 
 .bg-image{
-    background-image: url(/images/the-sleep-co-1.jpg);
+    background-image: url('/images/the-sleep-co-1.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
 }
+
+/* Aspect Ratio */
+.portrait-tall { padding-bottom: 175%; }
+.portrait { padding-bottom: 125%; }
+.square { padding-bottom: 100%; }
+.landscape { padding-bottom: 66%; }
+.landscape-wide { padding-bottom: 56%; }
+
+
+
 
 /* --------------------------- universal styles and utility classes ------------------------ */
 
@@ -125,6 +136,15 @@ p:last-child {
     color: white;
 }
 
+.bg-featured {
+    background-color: #ffbe00;
+}
+
+.bg-lightblue {
+    background-color: #e3ecf2;
+}
+
+
 
 .tall-50 { min-height: 50vh;}
 .tall-60 { min-height: 60vh;}
@@ -200,6 +220,8 @@ footer a:hover{
     color: #ffbe00;
     transition: 0.3s;
 }
+
+.text-sm {font-size: 1.3rem;}
 
 /* -------------- Header & Footer Styles ----------------- */
 
